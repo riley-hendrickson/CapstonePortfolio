@@ -1,0 +1,1 @@
+A year long project myself and two teammates completed for our senior capstone that improved upon a previous group's codebase. This program takes as input an excel sheet containing names and graduation dates of all of Western's 
