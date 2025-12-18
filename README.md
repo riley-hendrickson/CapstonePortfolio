@@ -2,7 +2,7 @@ A year long project myself and two teammates completed for our senior capstone t
 
 Prior to my team's iteration of this project, the program ran exclusively through commandline and was not user-friendly. So we created a simple python GUI to streamline the user process. Our other main focus was decreasing runtime and increasing readability in the code for future iterations of the project. 
 
-The main way we were able to decrease the runtime of the program was by introducing multiprogramming through multithreading, this came with its own challenges like interthread communication and dealing with race conditions on any common resources, but eventually we worked our way through it and significantly decreased the runtime by a significant margin.
+The main way we were able to decrease the runtime of the program was by introducing multiprogramming through multithreading, this came with its own challenges like interthread communication and dealing with race conditions on any common resources, but we were able to decrease runtime by nearly 45%.
 
 We made a few modifications to the codebase to increase readability, one of the ways we acheieved that was through increasing the modularity of the code and separating functionalities into different functions and python files and changed how each of these parts of the overall program communicated with each other. We also split up the video generation into different "chapters" and created the framework for creating new chapters so that changing the contents of the videos and adding further personalization down the line would be sigfnificantly easier for any teams picking up the project in the coming years. 
 
